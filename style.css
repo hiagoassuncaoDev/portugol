@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFC200 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top {
+    background-color: #121E24;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top div > img {
+    width: 300px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+    margin: 1em;
+    transition: ease 0.8s;
+}
+
+nav a:hover {
+    color: #FFC200;
+    text-decoration: overline;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 5em;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: -8px;
+}
+
+article {
+    border: 2px solid #121E24;
+    border-radius: 7px;
+    margin: 30px 40px 0 40px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+.botao {
+    display: flex;
+    justify-content: end;
+    margin: 50px;
+}
+
+.botao button {
+    background: #2F393C;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background: #3A464C;
+}
+
+.botao button a {
+    text-decoration: none;
+    color: #FFC200;
+}
+
+.botao2 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px;
+}
+
+.botao2 button {
+    background: #2F393C;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao2 button:hover {
+    background: #3A464C;
+}
+
+.botao2 button a {
+    text-decoration: none;
+    color: #FFC200;
+}
+
+footer {
+    background-color: #121E24;
+    margin-top: 45px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer > p {
+    color: #FFC200;
+}
